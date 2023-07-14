@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  background-color: black;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+h1,h2 {
+  font-family: 'Poppins';
+}
+
+
+h1{
+  color:#e6e0ee;
+
+}
+h2{
+  color: #bdacd1;
+}
+p{
+  font-family:  'Bohemian Typewriter', sans-serif;
+  margin:5%;
+}
+.title{
+  color: #967bb6;
+}
+img:hover{
+  transition: 0.4s;
+    color: black;
+    background: #bdacd1;
+    box-shadow: 0 0 100px #bdacd1;
+}
+.meme-img{
+  /* margin:50px; */
+  margin-bottom: 30px;
+  width:100%;
+  height: 100vh;
+}
+.text{
+  margin: 20px;
+}
+
+.footer-image{
+  width: 100vw;
+  margin: 0;
+}

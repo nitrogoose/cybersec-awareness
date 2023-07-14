@@ -1,0 +1,141 @@
+body{
+  background-color: black;
+}
+.a{
+  text-align: center;
+}
+
+.a{
+  float:right;
+}
+.sea{
+  color: #bf94e4;
+  font-family: 'Brick Sans';
+  font-size:3rem;
+  border: 0.2rem solid #fff;
+  border-radius: 3rem;
+  padding: 0.4rem;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+.b{
+  display: inline-block;
+}
+.vidimg{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin-left: 150px;
+  margin-top: 80px;
+}
+.containerph{
+  width: 100px;
+  height: 100px;
+  margin-left: -600px;
+  margin-top: -70px;
+   mix-blend-mode:lighten;
+}
+.containerph video{
+  width: 100%;
+  height: 100%;}
+
+ .gif{
+   position: relative;
+   width: 450px;
+   height: 350px;
+   margin-left: 700px;
+   margin-top: -1000px;
+ }
+   .c{
+   text-align: right;
+   }
+
+ .pick {
+   color: #ba8cdc;
+   font-family: 'Gotham Black';
+   margin-right: 80px;
+   margin-top:20px;
+   font-size: 50px;
+   text-shadow:1px 1px 10px purple, 1px 1px 10px #dcd0ff;
+}
+.hr1{
+  width: 10%;
+      border-style: dotted none none;
+      border-width: 7px;
+      border-color: #B19FF9;
+}
+.d{
+  text-align: center;
+}
+.text{
+  color:#dcd0ff;
+  font-family: 'BD Gitalona';
+}
+.e{
+  text-align: center;
+}
+ .t1{
+   width: 200px;
+           height: 200px;
+           border-radius: 100%;
+           text-align: center;
+           font-size: 30px;
+           float: left;
+           font-weight: bold;
+
+           /* Change the shape according
+               to the image */
+           shape-outside: circle();
+           background-color: purple;
+           color: white;
+ }
+.theory{
+  color:#C89DD8;
+  text-align: justify;
+  font-family: 'Bohemian Typewriter';
+  font-size: 20px;
+}
+ .container{
+   width: 100%;
+   height:70vh;
+   position: relative;
+ }
+ .container video{
+   width: 100%;
+   height: 100%;
+ }
+ .text-box{
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 40px;
+   font-weight: 900;
+   mix-blend-mode: multiply;
+ }
+
+ .video-contaniner{
+   height: 500px;
+   width: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url("cssph/vidimg.jpg") no-repeat;
+   background-size: contain;
+ }
+
+ video{
+   height: 80%;
+   width: 80%;
+
+ }
